@@ -1,12 +1,12 @@
 var contador = 0;
-while (contador <= 10) {
+while (contador <= 10) { //enquanto contador for menor ou igual a 10
     var x=true;
  console.log(`numero atual ${contador}`);
  contador++;   
 }
 console.log(x)
 
-for (var contador2 = 0; contador2 <= 10; contador2++){
+for (var contador2 = 0; contador2 <= 10; contador2++){ // para todo contador2 que começa com 0; enquanto contador2 for <= 10; adiciona 1 ao contador 2 no fim da execução 
     console.log(`numero atual ${contador2}`)
 }
 
